@@ -20,10 +20,9 @@ test {
 }
 
 artifactory {
-    contextUrl = 'https://192.168.100.62:8082/artifactory'
+    contextUrl = 'https://192.168.100.62:8082/artifactory/libs-release-local'
     publish {
         repository {
-            repoKey = 'libs-release-local'
             username = 'admin'
             password = 'Chella*123'
         }
